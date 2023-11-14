@@ -646,7 +646,7 @@ function Projects() {
     {
       name: "itsarraj.me",
       date: "March 2022",
-      link: "https://github.com/animeshbucket/itsarraj.me",
+      link: "https://github.com/itsarraj/itsarraj.me",
       description: [
         "Portfolio: Ubuntu 20.04 Theme, Built with Next.js and Tailwind CSS",
         "Designed the website to emulate the Ubuntu 20.04 theme, showcasing creativity in web design.",
@@ -659,7 +659,7 @@ function Projects() {
     {
       name: "CircuitCrafter",
       date: "June 2022",
-      link: "https://github.com/animeshbucket/circuitcrafter",
+      link: "https://github.com/itsarraj/circuitcrafter",
       description: [
         ,
         "Ecommerce Platform: Crafted using React, Redux , Express, and Tailwind CSS.",
@@ -730,7 +730,7 @@ function Projects() {
                     {project.name.toLowerCase()}
                   </div>
                   <iframe
-                    src={`https://ghbtns.com/github-btn.html?user=animeshbucket&repo=${projectName}&type=star&count=true`}
+                    src={`https://ghbtns.com/github-btn.html?user=itsarraj&repo=${projectName}&type=star&count=true`}
                     frameBorder="0"
                     scrolling="0"
                     width="150"

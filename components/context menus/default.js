@@ -11,7 +11,7 @@ function DefaultMenu(props) {
     >
       <a
         rel="noreferrer noopener"
-        href="https://github.com/animeshbucket/itsarraj.me"
+        href="https://github.com/itsarraj/itsarraj.me"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
@@ -20,7 +20,7 @@ function DefaultMenu(props) {
       </a>
       <a
         rel="noreferrer noopener"
-        href="https://github.com/animeshbucket/itsarraj.me/issues"
+        href="https://github.com/itsarraj/itsarraj.me/issues"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
@@ -41,7 +41,7 @@ function DefaultMenu(props) {
       </a>
       <a
         rel="noreferrer noopener"
-        href="https://github.com/animeshbucket"
+        href="https://github.com/itsarraj"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
