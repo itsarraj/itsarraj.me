@@ -237,11 +237,21 @@ function About() {
       </div>
       <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list mb-8">
         <li className=" list-pc">
-          I'm a <span className=" font-medium">Engineering Student</span>{" "}
-          recently Graduated with Bachelor in Engineering in Electronics and
-          Communication Engineering and now I'm looking for full-time full stack
-          engineer roles! ( Hit me up{" "}
-          <a className="text-underline" href="mailto:animesh.p9737@gmail.com">
+          "I am a{" "}
+          <span className=" font-medium">
+            recently graduated Engineering Student
+          </span>{" "}
+          with a Bachelor's in Electronics and Communication Engineering.
+          Currently, I am immersed in the world of Full Stack Engineering at
+          TCS, where I design robust solutions for Full Stack Web Applications,
+          addressing critical business needs. However, my gaze is fixed on the
+          horizon—I am actively{" "}
+          <span className="font-bold">
+            seeking full-time full stack engineer roles
+          </span>{" "}
+          where I can leverage my skills and passion to make a substantial
+          impact. (Hit me up)"
+          <a className="text-underline" href="mailto:animesh080808@gmail.com">
             <u>@animesh080808@gmail.com</u>
           </a>{" "}
           :) )
@@ -317,6 +327,29 @@ function Education() {
 
 function Experience() {
   const experienceList = [
+    {
+      name: "Tata Consultancy Services",
+      date: "July 2023 - Present",
+      role: "Full Stack Engineer",
+      stack: [
+        "React.js",
+        "Node.js",
+        "Typescript",
+        "Java",
+        "Spring Boot",
+        "Hibernate",
+        "MongoDB",
+        "SQL",
+      ],
+      description: [
+        "Actively involved in designing and implementing full stack web applications to address complex business challenges.",
+        "Utilized a diverse technology stack including React.js, Node.js, Typescript, Java, Spring Boot, Hibernate, MongoDB, and SQL.",
+        "Developed comprehensive solutions tailored to specific client requirements.",
+        "Played a key role in creating RESTful APIs, frontend interfaces, and backend microservices.",
+        "Provided end-to-end solutions in various business domains, such as the food industry.",
+        "Demonstrated expertise in integrating multiple technologies to deliver scalable and efficient solutions.",
+      ],
+    },
     {
       name: "Optimum Wellness",
       date: "April 2022 - July 2022",
@@ -521,6 +554,11 @@ function Skills() {
             />
             <img
               className="m-1"
+              src="https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white"
+              alt="animesh Java"
+            />
+            <img
+              className="m-1"
               src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff"
               alt="animesh python"
             />
@@ -551,7 +589,6 @@ function Skills() {
               alt="animesh SASS"
               className="m-1"
             />
-
             <img
               src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff"
               alt="animesh git"
@@ -601,6 +638,11 @@ function Skills() {
               className="m-1"
               src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white"
               alt="animesh redux"
+            />
+            <img
+              className="m-1"
+              src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=Spring&logoColor=white"
+              alt="animesh SpringBoot"
             />
 
             <img
