@@ -6,7 +6,7 @@ export class AboutAnimesh extends Component {
     super();
     this.screens = {};
     this.state = {
-      screen: () => {},
+      screen: () => { },
       active_screen: "about", // by default 'about' screen is active
       navbar: false,
     };
@@ -709,6 +709,7 @@ function Projects() {
         "Integrated a reliable payment gateway powered by PayPal to ensure secure transactions.",
         "Designed an appealing home page with product listings and pagination, providing a user-friendly interface.",
         "Supported both frontend and backend development and set up environment variables for easy local testing.",
+        "Images are temporarily stored in memory before being uploaded to the cloud, allowing for efficient and flexible image management.",
         "Demonstrated proficiency in a tech stack that includes MongoDB, Cloudinary, and Express.",
       ],
       domains: [
@@ -796,18 +797,18 @@ function Projects() {
               <div className="flex flex-wrap items-start justify-start text-xs py-2">
                 {project.domains
                   ? project.domains.map((domain, index) => {
-                      const borderColorClass = `border-${tag_colors[domain]}`;
-                      const textColorClass = `text-${tag_colors[domain]}`;
+                    const borderColorClass = `border-${tag_colors[domain]}`;
+                    const textColorClass = `text-${tag_colors[domain]}`;
 
-                      return (
-                        <span
-                          key={index}
-                          className={`px-1.5 py-0.5 w-max border ${borderColorClass} ${textColorClass} m-1 rounded-full`}
-                        >
-                          {domain}
-                        </span>
-                      );
-                    })
+                    return (
+                      <span
+                        key={index}
+                        className={`px-1.5 py-0.5 w-max border ${borderColorClass} ${textColorClass} m-1 rounded-full`}
+                      >
+                        {domain}
+                      </span>
+                    );
+                  })
                   : null}
               </div>
             </div>
