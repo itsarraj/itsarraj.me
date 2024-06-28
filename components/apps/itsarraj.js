@@ -724,6 +724,29 @@ function Projects() {
         "Cloudinary",
       ],
     },
+    {
+      name: "kruxigen",
+      date: "Nov 2023",
+      link: "https://github.com/itsarraj/kruxigen.tech",
+      description: [
+        "Educational Services Platform: Developed using TypeScript, Node.js, Express, MongoDB, and React.",
+        "Focused on providing full-stack web development tutoring with a specialization in the MERN stack.",
+        "Implemented modular template structure to ensure consistency and ease of adding new educational content.",
+        "Designed a responsive and user-friendly interface to enhance the learning experience.",
+        "Integrated a robust contact form for seamless user interaction and inquiry handling.",
+        "Employed TypeScript for type-safe development and improved code quality.",
+      ],
+      domains: [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "React",
+        "HTML",
+        "CSS",
+        "JavaScript",
+      ],
+    }
   ];
 
   const tag_colors = {
