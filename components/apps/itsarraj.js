@@ -258,8 +258,12 @@ function About() {
         </li>
         <li className=" mt-3 list-building">
           {" "}
-          I take pleasure in developing outstanding software solutions that
-          tackle practical issues.
+          I'm expanding my horizons by delving
+          deeper into the inner workings of software. I'm learning Rust and
+          Lua to understand how libraries, frameworks, parsers, runtime
+          plugins, and compilers are built. Additionally, I'm honing my C
+          and C++ skills to solidify my grasp of low-level concepts. This
+          empowers me to contribute to the future of software creation.
         </li>
         <li className=" mt-3 list-time">
           {" "}
@@ -482,7 +486,7 @@ function Skills() {
             {" "}
             Experienced in{" "}
             <strong className="text-ubt-gedit-orange">
-              mobile app development using React Native and Flutter.
+              mobile app development using React Native.
             </strong>
           </div>
         </li>
@@ -562,11 +566,6 @@ function Skills() {
               src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff"
               alt="animesh python"
             />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white"
-              alt="animesh dart"
-            />
             <a
               href="https://www.google.com/search?q=is+html+a+language%3F"
               target="_blank"
@@ -622,11 +621,6 @@ function Skills() {
               className=" m-1"
               src="https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB"
               alt="animesh react"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white"
-              alt="animesh flutter"
             />
             <img
               className="m-1"
