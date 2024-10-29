@@ -229,6 +229,10 @@ function About() {
           <span className="text-pink-600 font-bold">
             Software Engineer, Full-Stack Web and Mobile Developer
           </span>
+          <br/>
+          <span className="text-pink-600 font-bold">
+            with DevSecOps Expertise
+          </span>
         </div>
       </div>
       <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
@@ -237,14 +241,13 @@ function About() {
       </div>
       <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list mb-8">
         <li className=" list-pc">
-          "I am a{" "}
+          I am a{" "}
           <span className=" font-medium">
-            recently graduated Engineering Student
+            graduated Engineering Student
           </span>{" "}
           with a Bachelor's in Electronics and Communication Engineering.
-          Currently, I am immersed in the world of Full Stack Engineering at
-          TCS, where I design robust solutions for Full Stack Web Applications,
-          addressing critical business needs. However, my gaze is fixed on the
+          Currently, I am a <span className="font-medium">Full Stack Engineer</span> at
+          TCS, where I design and develop interactive frontend with robust backend to address critical business needs. I am creating CI/CD pipelines to thoroughly test the application, including security testing, and deploy it to the cloud.  However, my gaze is fixed on the
           horizon—I am actively{" "}
           <span className="font-bold">
             seeking full-time full stack engineer roles
@@ -258,24 +261,15 @@ function About() {
         </li>
         <li className=" mt-3 list-building">
           {" "}
-          I'm expanding my horizons by delving
-          deeper into the inner workings of software. I'm learning Rust and
-          Lua to understand how libraries, frameworks, parsers, runtime
-          plugins, and compilers are built. Additionally, I'm honing my C
-          and C++ skills to solidify my grasp of low-level concepts. This
-          empowers me to contribute to the future of software creation.
+          My goal is to be a "jack of all trades" - continuously learning and improving my skills across the full software development lifecycle, from frontend to backend, DevSecOps, and beyond. I'm excited about new technologies and dedicated to ongoing learning to stay updated with industry trends and best practices.
         </li>
         <li className=" mt-3 list-time">
           {" "}
-          When I'm not immersed in coding my next project, I indulge in my
-          passion for delving into electronics and computer science literature
-          while dedicating my time to creating tech-related courses for my
-          platform
+          When I'm not immersed in coding my next project, I indulge in tinkering with my arch linux system (yeah, i use arch btw). I love customizing my system, automating tasks, and exploring the depths of the Arch Wiki to expand my knowledge of Linux and system administration. This hands-on experience enhances my problem-solving skills and fuels my passion for building robust, efficient, and secure software solutions.
         </li>
         <li className=" mt-3 list-star">
           {" "}
-          Furthermore, I harbor a keen interest in the captivating realms of
-          data science and machine learning.
+          Furthermore, I harbor a keen interest in the captivating realms of data science and machine learning, and I'm continuously exploring ways to incorporate these technologies into my full-stack engineering practice. I believe that the intersection of data-driven insights and robust software solutions can unlock immense potential for businesses and users alike.
         </li>
       </ul>
     </>
@@ -352,6 +346,7 @@ function Experience() {
         "Played a key role in creating RESTful APIs, frontend interfaces, and backend microservices.",
         "Provided end-to-end solutions in various business domains, such as the food industry.",
         "Demonstrated expertise in integrating multiple technologies to deliver scalable and efficient solutions.",
+        "Implemented DevSecOps tools like ZAP, Semgrep, Snyk, and TruffleHog within GitHub Actions,creating a CI/CD pipeline for automated security testing of applications. This ensured continuous monitoring and mitigation of security vulnerabilities during development.",
       ],
     },
     {
@@ -421,11 +416,9 @@ function Skills() {
         </li>
         <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
           <div>
-            {" "}
-            Specialize in{" "}
+            Proficient in{" "}
             <strong className="text-ubt-gedit-orange">
-              front-end web development, including React.js, Next.js, JavaScript
-              and TypeScript.
+              Typescript, JavaScript, C, C++, Python, Java, HTML5, and CSS3.
             </strong>
           </div>
         </li>
@@ -434,8 +427,16 @@ function Skills() {
             {" "}
             Specialize in{" "}
             <strong className="text-ubt-gedit-orange">
-              back-end development, encompassing Node.js, Express.js, GraphQL,
-              RESTful APIs, and WebSockets.
+              front-end development, including React.js, Next.js, JavaScript, TypeScript, Tailwind CSS, State Management Libraries (Redux), and UI/UX Frameworks (Material-UI).
+            </strong>
+          </div>
+        </li>
+        <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
+          <div>
+            {" "}
+            Specialize in{" "}
+            <strong className="text-ubt-gedit-orange">
+              back-end development, encompassing Node.js, Nest.js, Express.js, GraphQL, RESTful APIs, WebSockets, and Spring Boot.
             </strong>
           </div>
         </li>
@@ -454,9 +455,15 @@ function Skills() {
             {" "}
             Proficient in{" "}
             <strong className="text-ubt-gedit-orange">
-              DevOps and deployment practices, utilizing Git, CI/CD (Jenkins),
-              containerization (Docker), orchestration (Kubernetes), and cloud
-              platforms (AWS and Digital Ocean).
+              DevOps and deployment practices, utilizing Git, GitHub, GitLab, CI/CD (Jenkins), containerization (Docker), orchestration (Kubernetes), cloud platforms (AWS and Digital Ocean), and server management (Nginx).
+            </strong>
+          </div>
+        </li>
+        <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
+          <div>
+            Experienced in{" "}
+            <strong className="text-ubt-gedit-orange">
+              DevSecOps practices, including ZAP (OWASP Zed Attack Proxy), Semgrep, Snyk, and TruffleHog.
             </strong>
           </div>
         </li>
@@ -478,6 +485,14 @@ function Skills() {
             <strong className="text-ubt-gedit-orange">
               backend tooling, including Postman and API documentation
               (Swagger).
+            </strong>
+          </div>
+        </li>
+        <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
+          <div>
+            Proficient in{" "}
+            <strong className="text-ubt-gedit-orange">
+              developer tools like NeoVim, VIM, Arch Linux, Ubuntu, grep, Bash, and Linux GNU Core Utils.
             </strong>
           </div>
         </li>
